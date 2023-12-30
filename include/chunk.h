@@ -3,14 +3,16 @@
 
 #include "common.h"
 
-typedef enum {
-	OP_RETURN,
+typedef enum
+{
+    OP_RETURN,
 } OpCode;
 
-typedef struct {
-	int count;
-	int capacity;
-	u8* code;
+typedef struct
+{
+    int count;
+    int capacity;
+    u8* code;
 } Chunk;
 
 #endif
