@@ -7,4 +7,8 @@ typedef enum {
 	OP_RETURN,
 } OpCode;
 
+typedef struct {
+	u8* code;
+} Chunk;
+
 #endif
