@@ -9,5 +9,6 @@ add_compile_options(-g3)
 add_executable(clox
 	src/main.c
 	src/chunk.c
+	src/memory.c
 )
 target_include_directories(clox PUBLIC ./include)
