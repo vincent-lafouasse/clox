@@ -1,6 +1,6 @@
-#include "temp.h"
+#include "common.h"
 
 int main(void)
 {
-    hello();
+    return 0;
 }
