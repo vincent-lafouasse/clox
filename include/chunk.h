@@ -15,4 +15,6 @@ typedef struct
     u8* code;
 } Chunk;
 
+void initChunk(Chunk* chunk);
+
 #endif
